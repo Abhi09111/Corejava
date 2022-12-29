@@ -6,25 +6,26 @@ int salary;
 int year;
 String address;
 void Robert() {
-	System.out.print("Name :- " + name );
-	System.out.print(" ,Salary :- Rs." +salary +"/-");
-	System.out.print(" ,Year :- " +year +"A.D");
-	System.out.println(" ,Address :- "+address);
+	System.out.print( name);
+	System.out.print("  " +salary );
+	System.out.print("   "+year +"A.D");
+	System.out.println("        "+address);
 	
 }
 void sam() {
-System.out.print("Name :- " + name );
-System.out.print(" ,Salary :- Rs." +salary +"/-");
-System.out.print(" ,Year :- " +year +"A.D");
-System.out.println(" ,Address :- "+address);
+System.out.print(name );
+System.out.print("   " +salary +"/-");
+System.out.print("    "+year +"A.D");
+System.out.println("        "+address);
 }
 void john() {
-System.out.print("Name :- " + name );
-System.out.print(" ,Salary :- Rs." +salary +"/-");
-System.out.print(" ,Year :- " +year +"A.D");
-System.out.print(" ,Address :- "+address);
+System.out.print( name );
+System.out.print( "   "+salary +"/-");
+System.out.print( "  "+year +"A.D");
+System.out.println("        "+ address);
 }
 public static void main(String[] args) {
+	System.out.println(" Name   salary  Year of joining   address   ");
 	Employee e1 = new Employee ();
 	e1.name = "Robert";
 	e1.salary = 60000;
